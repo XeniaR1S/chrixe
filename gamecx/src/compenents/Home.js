@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import '../App.css';
 
 class Home extends React.Component {
@@ -44,11 +45,11 @@ class Home extends React.Component {
             value={this.state.namePlayer}
             onChange={this.handleChange}
           />
-          <input
+          <Link to="/begin"><input
             className="buttonHome"
             type="button"
             value="Commencer"
-            />
+            /></Link>
         </form>
 
       </div>
