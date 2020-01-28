@@ -55,6 +55,7 @@ class Home extends React.Component {
             /> 
             </Link>
         </form>
+
       </div>
     );
   }

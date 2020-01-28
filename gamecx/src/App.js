@@ -1,9 +1,10 @@
 import React from 'react';
-import './App.css';
 import Home from './compenents/Home';
 import Begin from './compenents/Begin';
 import { Route, Switch } from "react-router-dom";
 
+import './App.css';
+import End from './compenents/End';
 
 function App() {
   return (
