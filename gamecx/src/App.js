@@ -15,18 +15,20 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Switch>
-        <Route exact path='/' component={Home}/>
-        <Route exact path='/begin' component={Begin}/>
-        <Route exact path='/whitedoor' component={WhiteDoor}/>
-        <Route exact path='/olddoor' component={OldDoor}/>
-        <Route exact path='/stairsup' component={StairsUp}/>
-        <Route exact path='/stairsdown' component={StairsDown}/>
-        <Route exact path='/stay' component={StayEat}/>
-        <Route exact path='/goout' component={GoOut}/>
-        <Route exact path='/' component={Home}/>
-        <Route exact path='/' component={Home}/>
-      </Switch>
+    <Switch>
+      <Route exact path="/" component={Home}/>
+      <Route exact path="/begin" component={Begin}/>
+      <Route exact path='/' component={Home}/>
+      <Route exact path='/begin' component={Begin}/>
+      <Route exact path='/whitedoor' component={WhiteDoor}/>
+      <Route exact path='/olddoor' component={OldDoor}/>
+      <Route exact path='/stairsup' component={StairsUp}/>
+      <Route exact path='/stairsdown' component={StairsDown}/>
+      <Route exact path='/stay' component={StayEat}/>
+      <Route exact path='/goout' component={GoOut}/>
+      <Route exact path='/' component={Home}/>
+      <Route exact path='/' component={Home}/>
+    </Switch>
     </div>
   );
 }
