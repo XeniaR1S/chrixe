@@ -1,6 +1,8 @@
 import React from 'react';
-import '../App.css';
+import { Link } from 'react-router-dom'
 import cabane from '../img/cabane.jpg'
+import '../App.css';
+
 
 class Begin extends React.Component {
   render (){
@@ -9,8 +11,8 @@ class Begin extends React.Component {
         <figure className='figure-cabane'>
           <img className='img-cabane' src={cabane} alt='cabane'/>
         </figure>
-        
-        Begin
+        <Link to="/whitedoor">Porte blanche</Link>
+        <Link to="/olddoor">Porte en bois</Link>
       </div>
     );
   }
