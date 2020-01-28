@@ -50,6 +50,7 @@ class Home extends React.Component {
             value="Commencer"
             />
         </form>
+
       </div>
     );
   }
