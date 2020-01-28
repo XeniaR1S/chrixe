@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import { Link } from "react-router-dom";
 
 class Home extends React.Component {
   constructor(props) {
@@ -44,11 +45,15 @@ class Home extends React.Component {
             value={this.state.namePlayer}
             onChange={this.handleChange}
           />
-          <input
+         <Link className="linkToBegin" to={{pathname:"/begin",
+            state: {namePlayer:this.props.namePlayer}}}>
+          <input 
             className="buttonHome"
             type="button"
             value="Commencer"
-            />
+            
+            /> 
+            </Link>
         </form>
       </div>
     );
