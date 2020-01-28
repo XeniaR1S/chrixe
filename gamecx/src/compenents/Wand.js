@@ -1,14 +1,14 @@
 import React from 'react';
 import '../App.css';
 
-class Home extends React.Component {
+class Wand extends React.Component {
   render (){
     return (
-      <div className="home">
-        Home
+      <div className="wand">
+        Wand
       </div>
     );
   }
 }
 
-export default Home;
+export default Wand;

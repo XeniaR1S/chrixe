@@ -1,14 +1,14 @@
 import React from 'react';
 import '../App.css';
 
-class Home extends React.Component {
+class Help extends React.Component {
   render (){
     return (
-      <div className="home">
-        Home
+      <div className="help">
+        Help
       </div>
     );
   }
 }
 
-export default Home;
+export default Help;
