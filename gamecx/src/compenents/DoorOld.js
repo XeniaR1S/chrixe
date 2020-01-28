@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
+
 import honeydukesSousol from '../img/honeydukesSousol.jpg'
 import '../App.css';
 
@@ -9,7 +11,9 @@ class DoorOld extends React.Component {
         <figure className='figure-honeydukesSousol'>
           <img className='img-honeydukesSousol' src={honeydukesSousol} alt='Honey Dukes Sous-sol'/>
         </figure>
-        Door Old
+        {/* SET STATE */}
+        <Link to="/honeydukes">Oui !</Link>
+        <Link to="/honeydukes">Euh.. Non</Link>
       </div>
     );
   }

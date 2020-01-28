@@ -1,14 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
+
 import '../App.css';
 
 class DoorOutOfHellWhite extends React.Component {
   render (){
     return (
       <div className="door-out-of-hell-white">
-        Door Out Of Hell White
+
+{/* A SUPPRIMER */}
+
+        
       </div>
     );
-  }
+  }  
 }
 
 export default DoorOutOfHellWhite;

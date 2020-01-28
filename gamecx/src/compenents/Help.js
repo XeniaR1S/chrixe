@@ -1,5 +1,7 @@
 import React from 'react';
-import baguette from '../img/baguette.jpg'
+import { Link } from 'react-router-dom'
+
+import baguette from '../img/baguette.jpeg'
 import '../App.css';
 
 class Help extends React.Component {
@@ -9,7 +11,8 @@ class Help extends React.Component {
         <figure className='figure-baguette'>
           <img className='img-baguette' src={baguette} alt='baguette magique'/>
         </figure>
-        Help
+        <Link to="/donttakewand">Je lui laisse</Link>
+        <Link to="/takewand">Je le récupère.. On ne sait jamais</Link>
       </div>
     );
   }

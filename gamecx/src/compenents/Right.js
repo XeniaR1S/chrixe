@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
+
 import alley from '../img/alleeEmbrumes.jpg'
 import '../App.css';
 
@@ -9,7 +11,8 @@ class Right extends React.Component {
         <figure className='figure-alley'>
           <img className='img-alley' src={alley} alt='alley'/>
         </figure>
-        Right
+        <Link to="/doorboo">Porte à fleurs</Link>
+        <Link to="/doorjapanese">Porte Japonaise</Link>
       </div>
     );
   }
