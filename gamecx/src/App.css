@@ -2,37 +2,62 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Home */
+
+.home {
+  font-size: 40px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  margin-left: 8%;
+  margin-right: 8%;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home h1 {
+  font-size: 60px;
+  color: whitesmoke;
+  text-align: center;
+  margin-bottom: 2%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.questionHome {
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 4%;
+}
+
+.firstnameHome {
+  text-align: center;
+}
+
+.playerNameForm {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.namePlayer {
+  margin-top: 3%;
+  width: 30%;
+  font-size: 20px;
+}
+
+.buttonHome {
+  margin-top: 3%;
+  width: 30%;
+  font-size: 20px;
+  border-radius: 6px;
+  box-shadow: 2px 3px 3px gray;
+  background-color: #2c3e50;
   color: white;
+  border: 2px solid whitesmoke;
+  height: 3vw;
+  margin-bottom: 4%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttonHome:hover {
+  opacity: 0.4;
 }
