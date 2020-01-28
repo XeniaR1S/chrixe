@@ -1,12 +1,26 @@
 import React from 'react';
+
+import {Switch, Route} from 'react-router-dom';
 import Home from './compenents/Home';
+import Begin from './compenents/Begin';
+
 import './App.css';
-import End from './compenents/End';
 
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <Switch>
+        <Route exact path='/' component={Home}/>
+        <Route exact path='/begin' component={Begin}/>
+        <Route exact path='/' component={Home}/>
+        <Route exact path='/' component={Home}/>
+        <Route exact path='/' component={Home}/>
+        <Route exact path='/' component={Home}/>
+        <Route exact path='/' component={Home}/>
+        <Route exact path='/' component={Home}/>
+        <Route exact path='/' component={Home}/>
+        <Route exact path='/' component={Home}/>
+      </Switch>
     </div>
   );
 }
