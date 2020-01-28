@@ -1,9 +1,8 @@
 import React from 'react';
-import '../App.css';
-<<<<<<< HEAD
-=======
+import { Link } from 'react-router-dom'
 import cabane from '../img/cabane.jpg'
->>>>>>> 3628bd63da1e64d6c973992a36b6035e009ad75d
+import '../App.css';
+
 
 class Begin extends React.Component {
   constructor(props){
@@ -11,24 +10,16 @@ class Begin extends React.Component {
     
   }
   render (){
-<<<<<<< HEAD
-  return (
-    <div className="begin">
-    </div>
-  );
-}
-=======
     return (
       <div className="begin">
         <figure className='figure-cabane'>
           <img className='img-cabane' src={cabane} alt='cabane'/>
         </figure>
-        
-        Begin
+        <Link to="/whitedoor">Porte blanche</Link>
+        <Link to="/olddoor">Porte en bois</Link>
       </div>
     );
   }
->>>>>>> 3628bd63da1e64d6c973992a36b6035e009ad75d
 }
 
 export default Begin;
