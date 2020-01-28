@@ -1,14 +1,14 @@
 import React from 'react';
 import '../App.css';
 
-class Hug extends React.Component {
+class Left extends React.Component {
   render (){
     return (
-      <div className="hug">
-        Hug
+      <div className="left">
+        Left
       </div>
     );
   }
 }
 
-export default Hug;
+export default Left;
