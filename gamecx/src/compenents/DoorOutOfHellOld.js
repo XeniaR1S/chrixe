@@ -9,7 +9,9 @@ class DoorOutOfHellOld extends React.Component {
         <figure className='figure-flammes'>
           <img className='img-flammes' src={flammes} alt='Honey Dukes Sous-sol'/>
         </figure>
-        Door Out Of Hell Old
+        <p>
+        Hé oui, tu es mort. Le coup de la belle porte qui mène à un endroit pas cool, pas à chaque fois hein.
+        </p>
       </div>
     );
   }

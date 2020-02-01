@@ -11,7 +11,10 @@ class Left extends React.Component {
         <figure className='figure-ollivander'>
           <img className='img-ollivander' src={ollivander} alt='ollivander'/>
         </figure>
-        SET STATE BAGUETTE
+        {/* SET STATE BAGUETTE */}
+        <p>
+        Escalier à gauche qui monte, tu sors de la boutique et rentre dans la boutique d'Ollivander le vendeur de baguette
+        </p>
         <Link to="/right">Continuer</Link>
       </div>
     );
