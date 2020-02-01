@@ -45,11 +45,16 @@ class Home extends React.Component {
             value={this.state.namePlayer}
             onChange={this.handleChange}
           />
-          <Link to="/begin"><input
+      
+         <Link className="linkToBegin" to={{pathname:"/begin",
+            state: {namePlayer:this.props.namePlayer}}}>
+          <input 
             className="buttonHome"
             type="button"
             value="Commencer"
-            /></Link>
+            
+            /> 
+            </Link>
         </form>
 
       </div>
