@@ -24,6 +24,7 @@ import Help from './compenents/Help';
 import DontHelp from './compenents/DontHelp';
 import TakeWand from './compenents/TakeWand';
 import DontTakeWand from './compenents/DontTakeWand';
+import End from './compenents/End';
 
 
 import './App.css';
@@ -55,10 +56,7 @@ function App() {
         <Route exact path='/donthelp' component={DontHelp}/>
         <Route exact path='/takewand' component={TakeWand}/>
         <Route exact path='/donttakewand' component={DontTakeWand}/>
-
-        <Route exact path='/doorboo' component={DoorBoo}/>
-        <Route exact path='/doorjapanese' component={DoorJapanese}/>
-        <Route exact path='/exit' component={Exit}/>
+        <Route exact path='/end' component={End}/>
       </Switch>
     </div>
   );

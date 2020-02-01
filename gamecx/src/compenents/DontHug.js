@@ -9,7 +9,9 @@ class DontHug extends React.Component {
         <figure className='figure-cerbere'>
           <img className='img-cerbere' src={cerbere} alt='Cerbere'/>
         </figure>
-        Dont Hug
+        <p>
+        Tu as gardé ta dignité, mais pas ta vie. Perséphone, véxée, a appelé Cerbère, le chien a trois tête et gardien des enfers pour s'occuper de ton cas. Tu es mort, déchiqueté même. 
+        </p>
       </div>
     );
   }
