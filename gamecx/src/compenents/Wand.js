@@ -5,7 +5,7 @@ class Wand extends React.Component {
   render (){
     return (
       <div className="wand">
-        Wand
+        {/* A SUPPRIMER */}
       </div>
     );
   }
