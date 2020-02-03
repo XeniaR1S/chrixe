@@ -70,3 +70,38 @@
 
 /* Begin (card) */
 
+.begin {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    align-items: center;
+    width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  border: 5px solid white;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  background-color: #7f8c8d;
+}
+
+
+
+.imgCard {
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.textCard {
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: whitesmoke;
+    opacity: 0.7;
+}
