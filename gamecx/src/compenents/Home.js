@@ -33,28 +33,19 @@ class Home extends React.Component {
           Es-tu prêt à relever le défi ? <br /> Seras-tu à la hauteur ? <br />{' '}
           Alors n'attends plus et suis ton destin.{' '}
         </div>
-        <div className="firstnameHome"></div>
+
         <form className="playerNameForm" onSubmit={this.onSubmit}>
+          
           <label htmlFor="namePlayer">
             Mais avant de partir, dis moi, quel est ton nom ?
           </label>
-          <input
-            className="namePlayer"
-            name="namePlayer"
-            type="text"
-            value={this.state.namePlayer}
-            onChange={this.handleChange}
-          />
+          
+          <input className="namePlayer" name="namePlayer" type="text" value={this.state.namePlayer} onChange={this.handleChange} />
       
-         <Link className="linkToBegin" to={{pathname:"/begin",
-            state: {namePlayer:this.props.namePlayer}}}>
-          <input 
-            className="buttonHome"
-            type="button"
-            value="Commencer"
-            
-            /> 
-            </Link>
+          <Link className="linkToBegin" to={{pathname:"/begin", state: {namePlayer:this.props.namePlayer}}}>
+            <input className="buttonHome" type="button" value="Commencer"/> 
+          </Link>
+
         </form>
 
       </div>
