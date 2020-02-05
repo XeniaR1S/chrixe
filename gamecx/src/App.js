@@ -1,6 +1,7 @@
 import React from 'react';
 
 import {Switch, Route} from 'react-router-dom';
+import FirstHome from './compenents/FirstHome';
 import Home from './compenents/Home';
 import Begin from './compenents/Begin';
 import WhiteDoor from './compenents/DoorWhite';
@@ -33,7 +34,8 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <Route exact path='/' component={Home}/>
+        <Route exact path='/' component={FirstHome}/>
+        <Route exact path='/home' component={Home}/>
         <Route exact path='/begin' component={Begin}/>
         <Route exact path='/whitedoor' component={WhiteDoor}/>
         <Route exact path='/olddoor' component={OldDoor}/>
