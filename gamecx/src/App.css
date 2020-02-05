@@ -73,8 +73,6 @@
 .begin {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 20%;
     align-items: center;
     width: 100%;
 }
@@ -88,6 +86,7 @@
   flex-wrap: wrap;
   border-radius: 10px;
   background-color: #7f8c8d;
+  margin-top: 5%;
 }
 
 .imgCard {
@@ -102,4 +101,13 @@
     margin-right: 2%;
     color: whitesmoke;
     opacity: 0.7;
+}
+
+.choiceDoor {
+  margin-top: 4%;
+  width: 100%;
+}
+
+.linkTo {
+  margin: 2%;
 }
