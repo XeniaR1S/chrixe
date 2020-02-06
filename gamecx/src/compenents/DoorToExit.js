@@ -1,13 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import '../App.css';
 
 class DoorToExit extends React.Component {
-  render (){
+  render() {
     return (
-      <div className="door-to-exit">
+      <div className="choiceDoor">
         <Link to="/begin"> Tu fuis pleûtre ?! RECOMMENCE !</Link>
-      
       </div>
     );
   }
