@@ -1,14 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import '../App.css';
 
 class GoOut extends React.Component {
-  render (){
+  render() {
     return (
-      <div className="go-out">
-        Tu as eu de la chance cette fois.. C'étais le château de Dracula himself.
-        Allez, continue
-        <Link to="/stairsdown">Continuer</Link>
+      <div className="go-out begin">
+        <div className="card">
+          <p className="textCard">
+            Tu as eu de la chance cette fois.. C'étais le château de Dracula
+            himself. Allez, continue !
+          </p>
+          <div className="choiceDoor">
+            <Link to="/stairsdown">Continuer</Link>
+          </div>
+        </div>
       </div>
     );
   }

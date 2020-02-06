@@ -1,6 +1,7 @@
 import React from 'react';
 import detraqueurs from '../img/detraqueurs.png';
 import '../App.css';
+import { Link } from 'react-router-dom';
 
 class TakeWand extends React.Component {
   render() {
@@ -21,6 +22,9 @@ class TakeWand extends React.Component {
             détraqueurs. Hemione aura le temps de s'enfuir. Tu auras au moins le
             mérite d'avoir fait une bonne diversion.
           </p>
+          <div className="choiceDoor">
+            <Link to="/begin">RETENTE TA CHANCE MOLDU</Link>
+          </div>
         </div>
       </div>
     );
