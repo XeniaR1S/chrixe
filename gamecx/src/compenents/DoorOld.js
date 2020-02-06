@@ -7,14 +7,16 @@ import '../App.css';
 class DoorOld extends React.Component {
   render (){
     return (
-      <div className="door-old">
-        <figure className='figure-honeydukesSousol'>
-          <img className='img-honeydukesSousol' src={honeydukesSousol} alt='Honey Dukes Sous-sol'/>
+      <div className="door-old begin">
+        <div className='card'>
+        <figure className='figureCard '>
+          <img className='img-honeydukesSousol imgCard' src={honeydukesSousol} alt='Honey Dukes Sous-sol'/>
         </figure>
         {/* SET STATE */}
-        <p>
+        <p className='textCard'>
         La porte en bois rouillée mène à Honeyducks, dans la réserve pleine d'objets. Une pierre noire est posée sur un piédestal, possibilité de la prendre ou non.
         </p>
+        </div>
         <Link to="/honeydukes">Oui !</Link>
         <Link to="/honeydukes">Euh.. Non</Link>
       </div>

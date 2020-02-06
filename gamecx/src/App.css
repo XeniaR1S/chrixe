@@ -1,43 +1,39 @@
-/* ------------------------- IMPORT POLICE--------------------*/ 
+/* ------------------------- IMPORT POLICE--------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');  /* font-family: 'Slabo 27px', serif;*/
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap'); /* font-family: 'Slabo 27px', serif;*/
 
-@import url('https://fonts.googleapis.com/css?family=Fugaz+One&display=swap');  /* font-family: 'Fugaz One', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One&display=swap'); /* font-family: 'Fugaz One', cursive; */
 
-@import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap');  /* font-family: 'Sanchez', serif;*/
+@import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap'); /* font-family: 'Sanchez', serif;*/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');  /* font-family: 'Roboto Mono', monospace;*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap'); /* font-family: 'Roboto Mono', monospace;*/
 
-@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');  /* font-family: 'Rubik', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap'); /* font-family: 'Rubik', sans-serif;*/
 
-@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');  /* font-family: 'Dosis', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap'); /* font-family: 'Dosis', sans-serif;*/
 
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');  /* font-family: 'Raleway', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap'); /* font-family: 'Raleway', sans-serif;*/
 
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap'); /* font-family: 'Libre Baskerville', serif;*/
 
-/* ------------------------- ALL APP --------------------*/ 
+/* ------------------------- ALL APP --------------------*/
 
 .App {
   text-align: center;
   color: antiquewhite;
   font-family: 'Libre Baskerville', serif;
-
 }
 
-
-
-/* ------------------------- FIRST HOME --------------------*/ 
+/* ------------------------- FIRST HOME --------------------*/
 .first-home {
-  background-color: rgb(69,84,107);
+  background-color: rgb(69, 84, 107);
   width: 100%;
   height: 100vh;
-  color: rgb(254,247,203);
+  color: rgb(254, 247, 203);
 }
 
-.title-first-home{
+.title-first-home {
   font-size: 2.5em;
-
 }
 
 .text-first-home {
@@ -47,7 +43,6 @@
 .figure-logo img {
   width: 25em;
 }
-
 
 /* Home */
 
@@ -114,14 +109,13 @@
   text-align: center;
 }
 
-
 /* Begin (card) */
 
 .begin {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 .card {
@@ -143,18 +137,23 @@
 }
 
 .textCard {
-    text-align: justify;
-    margin-left: 2%;
-    margin-right: 2%;
-    color: whitesmoke;
-    opacity: 0.7;
+  text-align: justify;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: whitesmoke;
+  opacity: 0.7;
 }
 
 .choiceDoor {
   margin-top: 4%;
   width: 100%;
+  margin-bottom: 2%;
 }
 
 .linkTo {
   margin: 2%;
+}
+
+.figureCard {
+  margin: auto;
 }

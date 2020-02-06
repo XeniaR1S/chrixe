@@ -6,15 +6,13 @@ import '../App.css';
 class StayEat extends React.Component {
   render (){
     return (
-      <div className="stay-eat">
+      <div className="stay-eat begin">
         <div className='card'>
-          <figure>
-          <img className='img-dracula' src={dracula} alt='dracula'/>
-          </figure>
+          <img className='img-dracula imgCard' src={dracula} alt='dracula'/>
         <p className="textCard">
           Je sais, tu avais faim. Mais le propriétaire des lieux était lui aussi affamé. Face à Dracula en personne, tu n'as rien pu faire. Tu es mort, vidé de ton sang. 
         </p>
-        </div>;
+        </div>
         <p>
           Tu veux ré-essayer ?
         </p>
