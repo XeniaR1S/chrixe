@@ -28,28 +28,36 @@
 
 
 /* ------------------------- FIRST HOME --------------------*/ 
+
 .first-home {
   background-color: rgb(69,84,107);
   width: 100%;
   height: 100vh;
   color: rgb(254,247,203);
+  text-align: center;
 }
 
 .title-first-home{
   font-size: 2.5em;
-
 }
 
 .text-first-home {
   font-size: 1.5em;
+  width: 35em;
+  margin: auto;
 }
 
 .figure-logo img {
   width: 25em;
 }
 
+.first-home {
+  position: absolute;
+}
 
-/* Home */
+
+
+/* ----------------------------- HOME ------------------------*/ 
 
 .home {
   font-size: 40px;
@@ -97,7 +105,7 @@
   width: 30%;
   font-size: 20px;
   border-radius: 6px;
-  box-shadow: 2px 3px 3px gray;
+  box-shadow: 2px 10px 10px rgb(61, 71, 85);
   background-color: #2c3e50;
   color: white;
   border: 2px solid whitesmoke;
@@ -115,7 +123,8 @@
 }
 
 
-/* Begin (card) */
+
+/* ------------------------- BEGIN (CARD) --------------------*/ 
 
 .begin {
     display: flex;
