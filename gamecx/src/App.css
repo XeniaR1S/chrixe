@@ -248,6 +248,7 @@
   margin-right: 2%;
   color: whitesmoke;
   opacity: 0.7;
+  text-align: center;
 }
 
 .choiceDoor {
@@ -278,13 +279,13 @@
   .card {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 99%;
     align-items: center;
     border: none;
     flex-wrap: wrap;
     border-radius: 10px;
-    background-color: #343636bb;
-    margin-top: 5%;
+    background-color: rgb(33, 35, 37, .3);
+    margin-top: 0%;
   }
   
   .choiceDoor {
@@ -304,8 +305,31 @@
       border-radius: 6px;
       font-family: 'Libre Baskerville', serif;    
       font-size: 1em;
-      color: white;
+      color: antiquewhite;
       text-decoration: none;
-      padding-top: 0.4em;
+      padding-top: 0.5em;
+      margin-bottom: 1em;
+  }
+
+  .choiceDoor {
+      display: flex;
+      justify-content: space-around;
+      position: fixed;
+      bottom: 0;
+  }
+
+  .figureCard {
+    max-width: 95%;
+  }
+}
+
+
+/* ------------------------- GO OUT --------------------*/
+
+ /* Mobile */
+ @media screen and (max-width: 768px) {
+  
+  .fig-dont-hug {
+    max-width: 92%;
   }
 }
