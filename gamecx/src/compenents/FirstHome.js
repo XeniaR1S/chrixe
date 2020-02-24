@@ -17,7 +17,7 @@ class FirstHome extends React.Component {
           choix qui pourront avoir des incidences sur la suite de ton périple.{' '}
         </div>
         <Link className="linkToBegin" to="/home">
-            <input className="buttonHome" type="button" value="Entrer dans le jeu"/> 
+            <input className="buttonEnter" type="button" value="Entrer dans le jeu"/> 
         </Link>
       </div>
     );
