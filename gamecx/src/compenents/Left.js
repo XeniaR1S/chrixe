@@ -22,7 +22,7 @@ class Left extends React.Component {
             la boutique d'Ollivander le vendeur de baguette
           </p>
           <div className="choiceDoor">
-            <Link to="/right">Continuer</Link>
+            <Link className="linkTo" to="/right">Continuer</Link>
           </div>
         </div>
       </div>

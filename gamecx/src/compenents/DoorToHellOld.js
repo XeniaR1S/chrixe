@@ -28,7 +28,7 @@ class DoorToHellOld extends React.Component {
             Oui, grave
           </Link>
           <Link className="linkTo" to="/donthug">
-            Non, franchement t'es pas ouf
+            Non, pas ouf
           </Link>
         </div>
       </div>

@@ -12,7 +12,7 @@ class GoOut extends React.Component {
             himself. Allez, continue !
           </p>
           <div className="choiceDoor">
-            <Link to="/stairsdown">Continuer</Link>
+            <Link className="linkTo" to="/stairsdown">Continuer</Link>
           </div>
         </div>
       </div>

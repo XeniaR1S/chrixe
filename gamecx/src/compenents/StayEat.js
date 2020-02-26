@@ -16,7 +16,7 @@ class StayEat extends React.Component {
         <p>
           Tu veux ré-essayer ?
         </p>
-        <Link to="/">Recommencer</Link>
+        <Link className="linkTo" to="/">Recommencer</Link>
       </div>
     );
   }

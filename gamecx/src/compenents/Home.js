@@ -22,25 +22,22 @@ class Home extends React.Component {
   render() {
     return (
       <div className="home">
-        <h1>BIENVENUE VOYAGEUR</h1>
-        <p>
-          Tu t'apprêtes à vivre une aventure qui te fera voyager à travers
-          plusieurs univers de la culture populaire. Il te faudra faire des
-          choix qui pourront avoir des incidences sur la suite de ton périple.{' '}
-        </p>
-        <div className="questionHome">
-          {' '}
-          Es-tu prêt à relever le défi ? <br /> Seras-tu à la hauteur ? <br />{' '}
-          Alors n'attends plus et suis ton destin.{' '}
+        <div className="question-home">
+          Es-tu prêt à relever le défi ? 
+        </div>
+        <div className="question-home">
+          Seras-tu à la hauteur ? 
+        </div>
+        <div className="question-home">
+          Alors n'attends plus et suis ton destin.
         </div>
 
-        <form className="playerNameForm" onSubmit={this.onSubmit}>
-          
-          <label htmlFor="namePlayer">
+        <form className="playerNameForm" onSubmit={this.onSubmit}>  
+          <label className="question-home" htmlFor="namePlayer">
             Mais avant de partir, dis moi, quel est ton nom ?
           </label>
           
-          <input className="namePlayer" name="namePlayer" type="text" value={this.state.namePlayer} onChange={this.handleChange} />
+          <input className="name-player" name="namePlayer" type="text" value={this.state.namePlayer} onChange={this.handleChange} />
       
           <Link className="linkToBegin" to={{pathname:"/begin", state: {namePlayer:this.props.namePlayer}}}>
             <input className="buttonHome" type="button" value="Commencer"/> 

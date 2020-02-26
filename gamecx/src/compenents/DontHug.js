@@ -8,7 +8,7 @@ class DontHug extends React.Component {
     return (
       <div className="dont-hug begin">
         <div className="card">
-          <figure className="figureCard">
+          <figure className="figureCard  fig-dont-hug">
             <img className="img-cerbere imgCard" src={cerbere} alt="Cerbere" />
           </figure>
           <p className="textCard">
