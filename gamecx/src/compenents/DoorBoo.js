@@ -17,9 +17,7 @@ class DoorBoo extends React.Component {
             />
           </figure>
           <p className="textCard">
-            Une porte à l'allure attrayante, blanche avec des fleurs violettes
-            se trouve dans l'allée, c'est la seule porte éclairée, elle a un
-            côté rassurant, tu décides d'entrer. L'enfer sur Terre, tu te
+            L'enfer sur Terre, tu te
             retrouves dans une tranchée en pleine Guerre 14-18. A l'autre bout
             de la tranchée, tu repères une autre porte, tu sais au fond de toi
             qu'elle te sortira d'ici, mais tu ne sais pas que ce qui t'attends
@@ -33,7 +31,7 @@ class DoorBoo extends React.Component {
             Poilus.
           </p>
           <div className="choiceDoor">
-            <Link to="/doorjapanese">Vite ! C'est pas ma guerre putain</Link>
+            <Link className="linkTo" to="/doorjapanese">Vite ! C'est pas ma guerre putain</Link>
           </div>
         </div>
       </div>

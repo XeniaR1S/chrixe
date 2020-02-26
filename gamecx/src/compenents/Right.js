@@ -13,9 +13,11 @@ class Right extends React.Component {
             <img className="img-alley imgCard" src={alley} alt="alley" />
           </figure>
           <p className="textCard">
-            Dans la boutique d'Honeyducks, tu trouves une porte à droite qui te
-            mène dans l'allée des embrumes, un endroit malfamé où on rencontre
-            tous les mauvais sorciers
+            Tu te retrouves dans l'allée des embrumes, un endroit malfamé où on rencontre
+            tous les mauvais sorciers.
+            Une porte à l'allure attrayante, blanche avec des fleurs violettes
+            se trouve dans l'allée, c'est la seule porte éclairée, elle a un
+            côté rassurant. La seconde est une porte coulissante faite de bois clair et d'un papier couleur crème épais. On la croirais sortie tout droit d'un décor de film typiquement japonais.
           </p>
           <div className="choiceDoor">
             <Link className="linkTo" to="/doorboo">
